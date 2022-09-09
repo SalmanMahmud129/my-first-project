@@ -1,0 +1,1 @@
+This is my first solo project. Lists my favorite games with images that point to links to videos of their trailers.
