@@ -1,4 +1,56 @@
-img.gameCover{
+/*img.gameCover{
     height: auto;
+    width: 70%;
+}
+*/
+body{
+    background-color: grey;
+}
+table{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 3px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    /*width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    */
+}
+
+td.gameTitle img{
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+}
+
+td.gameTitle{
+    text-decoration: underline;
+    font-size: x-large;
+    color: red;
+    background-color: black;
+}
+
+th{
     width: 30%;
+}
+
+td.Playstation{
+    background-image: url(https://thebusinessofesports.com/wp-content/uploads/2022/05/unnamed-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    
+}
+
+td.Xbox{
+    background-image: url(https://www.gamereactor.es/media/96/_2849663b.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-color: green;
 }
